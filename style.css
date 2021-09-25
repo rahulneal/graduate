@@ -6,6 +6,7 @@
     --primary:#ffffff;
     --secondary:#000000;
     --third:#C02D34;
+    --four:#cccccc;
 }
 .container{
     max-width: 1240px;
@@ -28,7 +29,7 @@
 }
 .menu ul li a{
     text-decoration: none;
-    color: var(--third);
+    color: var(--four);
     font-size: medium;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
