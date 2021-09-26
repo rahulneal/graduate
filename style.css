@@ -8,6 +8,11 @@
     --third:#C02D34;
     --four:#cccccc;
 }
+li{
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+}
 .container{
     max-width: 1240px;
     margin: 0 auto;
@@ -137,17 +142,55 @@ border-radius: .3rem;
 .cards ul{
     display: flex;
     flex-direction: row;
-    width: 100%;
+    
+
 }
 .cards ul li{
+    /* border: 1px solid var(--secondary); */
+    width: 30%;
+    margin-right: 3rem;
+    margin-top: -3rem;
+    background-color: var(--primary);
+    box-shadow: 1px 1px 5px ;
+    margin-bottom: 5rem;
+    padding-right: 1rem;
+}
+/* .cards ul li{
     border:1px solid black ;
     display: flex;
     justify-content: space-between;
     margin-top: -6rem;
-    flex-wrap: wrap;
+
     margin-right: 2rem;
-    padding: 3rem;   
+
     background-color: var(--primary);
+    
         
+} */
+.card-content{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    margin-bottom: 3rem;
+    
 }
+.card-content h3{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    
+}
+.card-content button{
+    background-color: #C02D34;
+    border: none;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+.card-content p{
+    width: 80%;
+}
+
 
