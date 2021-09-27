@@ -3,10 +3,13 @@
     padding: 0;
 }
 :root{
-    --primary:#ffffff;
+    --primary:#f4f4f4;
     --secondary:#000000;
     --third:#C02D34;
     --four:#cccccc;
+}
+body{
+    background-color: var(--primary);
 }
 li{
     list-style: none;
