@@ -200,12 +200,18 @@ border-radius: .3rem;
     left: 0;
     bottom: -10px;
 }
-.card-content button{
+.button{
     background-color: #C02D34;
-    border: none;
+    
     padding: 1rem;
-    border-radius: 2rem;
+    border-radius: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 35px;
+    
 }
+
 .card-content p{
     width: 80%;
     color: #808080;
