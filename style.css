@@ -3,10 +3,11 @@
     padding: 0;
 }
 :root{
-    --primary:#f4f4f4;
+    --primary:#FAFAFA;
     --secondary:#000000;
-    --third:#C02D34;
-    --four:#cccccc;
+    --third:#96BB7C;
+    --green:#96BB7C;
+    --four:#808080;
 }
 body{
     background-color: var(--primary);
@@ -115,7 +116,7 @@ border-radius: .3rem;
 .about-text p{
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
-    color: grey;
+    color:#666666;
     font-weight: 600;
     margin-bottom: 2rem;
 }
@@ -193,7 +194,7 @@ border-radius: .3rem;
 }
 .card-content h3::after{
     content: " ";
-    border: 1px solid var(--third);
+    border: 1px solid #C02D34 ;
     position: absolute;
     width: 80px;
     left: 0;
@@ -207,6 +208,8 @@ border-radius: .3rem;
 }
 .card-content p{
     width: 80%;
+    color: #808080;
+    margin-top: 1.5rem;
 }
 
 
